@@ -1,0 +1,8 @@
+{
+  "parser": "babel-eslint",
+  "rules": {
+    "quotes": [2, "single"],
+    "indent": [2, 2],
+    "no-import-react-native-text": 2
+  }
+}
