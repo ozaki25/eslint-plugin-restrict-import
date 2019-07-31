@@ -30,12 +30,12 @@ tester.run(
       {
         code: "import { Text } from 'react-native';",
         parserOptions,
-        errors: ['This import is not allowed.'],
+        errors: ['Import of react-native Text is not allowed.'],
       },
       {
         code: "import { Text, View } from 'react-native';",
         parserOptions,
-        errors: ['This import is not allowed.'],
+        errors: ['Import of react-native Text is not allowed.'],
       },
     ],
   },
