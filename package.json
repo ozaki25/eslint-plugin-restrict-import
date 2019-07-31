@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-restrict-import",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "lib/rules/index.js",
   "license": "MIT",
   "repository": "git@github.com:ozaki25/eslint-plugin-restrict-import.git",
