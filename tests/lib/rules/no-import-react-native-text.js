@@ -10,7 +10,7 @@ const parserOptions = {
 
 tester.run(
   'no-import-react-native-text',
-  require('../rule/no-import-react-native-text'),
+  require('../../../lib/rules/no-import-react-native-text'),
   {
     valid: [
       {
