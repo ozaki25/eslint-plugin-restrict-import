@@ -10,6 +10,6 @@
     "eslint-plugin-react": "^7.14.3"
   },
   "scripts": {
-    "lint": "eslint . --rulesdir ../eslint/rule"
+    "lint": "eslint . --rulesdir ../lib/rules"
   }
 }

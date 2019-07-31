@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-restrict-import",
   "version": "0.0.2",
-  "main": "eslint/rule/index.js",
+  "main": "lib/rules/index.js",
   "license": "MIT",
   "repository": "git@github.com:ozaki25/eslint-plugin-restrict-import.git",
   "author": "ozaki25 <fs65ugumori@yahoo.co.jp>",
@@ -10,6 +10,6 @@
     "mocha": "^6.2.0"
   },
   "scripts": {
-    "test": "mocha eslint/test/*.js"
+    "test": "mocha tests/**/*.js"
   }
 }
