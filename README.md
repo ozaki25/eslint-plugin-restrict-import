@@ -10,7 +10,7 @@ yarn add -D eslint-plugin-restrict-import
 
 - Add settings to `.eslintrc`.
 
-```json
+```js
 // ...
   plugins: [
     /** other plugins **/,
