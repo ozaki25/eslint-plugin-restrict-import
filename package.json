@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-restrict-import",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "author": "ozaki25 <fs65ugumori@yahoo.co.jp>",
   "main": "lib/rules/index.js",
   "license": "MIT",
