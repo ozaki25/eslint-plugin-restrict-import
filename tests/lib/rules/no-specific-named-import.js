@@ -6,8 +6,8 @@ const tester = new RuleTester({
 });
 
 tester.run(
-  'no-specific-import',
-  require('../../../lib/rules/no-specific-import'),
+  'no-specific-named-import',
+  require('../../../lib/rules/no-specific-named-import'),
   {
     valid: [
       {

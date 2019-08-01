@@ -1,6 +1,6 @@
-# no-import-react-native-text
+# no-specific-named-import
 
-- Do not allow specific import.
+- Do not allow specific named import.
 - Use scene is limited. This rule is useful when using your own extended module　not using the module as it is.
 
 ## Rule Details
@@ -10,7 +10,7 @@
 ```js
 {
   "rules": {
-    "no-specific-import": [2, [["foo", "bar"]]]
+    "no-specific-named-import": [2, [["foo", "bar"], /* ["fiz", "baz"], ... */]]
   }
 }
 ```
