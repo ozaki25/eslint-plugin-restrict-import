@@ -375,8 +375,8 @@ eslint-plugin-react@^7.14.3:
     prop-types "^15.7.2"
     resolve "^1.10.1"
 
-eslint-plugin-restrict-named-import@../:
-  version "1.0.1"
+eslint-plugin-restrict-named-import@2.0.0:
+  version "2.0.0"
 
 eslint-scope@3.7.1:
   version "3.7.1"
