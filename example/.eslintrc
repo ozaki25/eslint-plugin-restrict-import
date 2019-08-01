@@ -1,8 +1,9 @@
 {
   "parser": "babel-eslint",
+  "plugins": ["restrict-named-import"],
   "rules": {
     "quotes": [2, "single"],
     "indent": [2, 2],
-    "no-specific-import": [2, [["react-native", "Text"]]]
+    "restrict-named-import/no-specific-named-import": [2, [["react-native", "Text"]]]
   }
 }

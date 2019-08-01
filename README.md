@@ -1,11 +1,11 @@
-# eslint-plugin-restrict-import
+# eslint-plugin-restrict-named-import
 
 ## Installation
 
 ```bash
-npm i -D eslint-plugin-restrict-import
+npm i -D eslint-plugin-restrict-named-import
 # or
-yarn add -D eslint-plugin-restrict-import
+yarn add -D eslint-plugin-restrict-named-import
 ```
 
 - Add settings to `.eslintrc`.
@@ -14,10 +14,10 @@ yarn add -D eslint-plugin-restrict-import
 // ...
   plugins: [
     /** other plugins **/,
-    "restrict-import"
+    "restrict-named-import"
   ],
   rules: {
-    "restrict-import/no-specific-import": [2, [["foo", "bar"], ["fiz", "baz"]]]
+    "restrict-named-import/no-specific-named-import": [2, [["foo", "bar"]]]
   },
 // ...
 ```
@@ -31,4 +31,4 @@ import { bar } from 'foo';
 
 ## Rules
 
-- [no-specific-import](docs/rules/no-specific-import.md): Do not allow specific import.
+- [no-specific-named-import](docs/rules/no-specific-named-import.md): Do not allow specific import.
