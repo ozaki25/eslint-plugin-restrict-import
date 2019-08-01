@@ -14,14 +14,21 @@ yarn add -D eslint-plugin-restrict-import
 // ...
   plugins: [
     /** other plugins **/,
-    'restrict-import'
+    "restrict-import"
   ],
   rules: {
-    'restrict-import/no-import-react-native-text': 2,
+    "restrict-import/no-specific-import": [2, [["foo", "bar"], ["fiz", "baz"]]]
   },
+// ...
+```
+- An error occurs in the following.
+
+```js
+import { bar } from 'foo';
+
 // ...
 ```
 
 ## Rules
 
-- [no-import-react-native-text](docs/rules/no-import-react-native-text.md): Do not allow import for react-native Text.
+- [no-specific-import](docs/rules/no-specific-import.md): Do not allow specific import.
