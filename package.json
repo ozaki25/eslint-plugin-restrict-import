@@ -1,10 +1,15 @@
 {
   "name": "eslint-plugin-restrict-import",
   "version": "0.0.4",
+  "author": "ozaki25 <fs65ugumori@yahoo.co.jp>",
   "main": "lib/rules/index.js",
   "license": "MIT",
-  "repository": "git@github.com:ozaki25/eslint-plugin-restrict-import.git",
-  "author": "ozaki25 <fs65ugumori@yahoo.co.jp>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ozaki25/eslint-plugin-restrict-import"
+  },
+  "homepage": "https://github.com/ozaki25/eslint-plugin-restrict-import",
+  "bugs": "https://github.com/ozaki25/eslint-plugin-restrict-import/issues",
   "devDependencies": {
     "eslint": "^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0",
     "mocha": "^6.2.0"
