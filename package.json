@@ -6,8 +6,11 @@
   "repository": "git@github.com:ozaki25/eslint-plugin-restrict-import.git",
   "author": "ozaki25 <fs65ugumori@yahoo.co.jp>",
   "devDependencies": {
-    "eslint": "^6.1.0",
+    "eslint": "^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0",
     "mocha": "^6.2.0"
+  },
+  "peerDependencies": {
+    "eslint": "^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0"
   },
   "scripts": {
     "test": "mocha tests/**/*.js"
